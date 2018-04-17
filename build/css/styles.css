@@ -1,0 +1,190 @@
+html {
+  font-size: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #ededed; }
+
+* {
+  margin: 0; }
+
+.nav {
+  width: 100%;
+  height: 8rem;
+  background-color: #fff;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: -10px -16px 15px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: -10px -16px 15px 10px rgba(0, 0, 0, 0.12); }
+  .nav > :nth-child(1) {
+    padding: 0 0 0 9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+      align-items-justify-content: center;
+    vertical-align: middle; }
+    .nav > :nth-child(1) > :nth-child(1) {
+      width: 12rem; }
+    .nav > :nth-child(1) > :nth-child(2) {
+      padding-left: 3rem; }
+  .nav > :nth-child(2) {
+    width: 40%;
+    text-align: right;
+    margin-left: auto;
+    padding: 1rem 14rem 0rem 0; }
+    .nav > :nth-child(2) > * {
+      margin-left: 1rem; }
+
+.content_wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 90%; }
+  @media screen and (max-width: 600px) {
+    .content_wrapper {
+      width: 100%; } }
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding: 9rem 2rem 0 2rem; }
+  @media screen and (max-width: 600px) {
+    .content {
+      padding: 8rem 0 0 0; } }
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background-color: #fff;
+  margin: 0 1rem 1rem 0; }
+  @media screen and (max-width: 600px) {
+    .card {
+      margin: 0;
+      padding: 1rem; } }
+  .card > :nth-child(1) {
+    padding: 1rem;
+    text-align: center; }
+    @media screen and (max-width: 600px) {
+      .card > :nth-child(1) {
+        padding: 0rem 1rem;
+        background-color: #53A318;
+        color: #fff; } }
+  @media screen and (max-width: 600px) {
+    .card > :nth-child(2) {
+      width: 100%;
+      height: 100%; } }
+  .card > :nth-child(3) {
+    max-width: 40rem;
+    padding: 1rem;
+    color: #53A318; }
+    @media screen and (max-width: 600px) {
+      .card > :nth-child(3) {
+        width: 100%;
+        padding: 0rem; } }
+  .card > :nth-child(4) {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column no wrap;
+    flex-flow: column no wrap; }
+    @media screen and (max-width: 600px) {
+      .card > :nth-child(4) {
+        width: 100%;
+        padding: 0rem;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        .card > :nth-child(4) .button {
+          margin-left: auto; } }
+
+.card_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  text-align: center;
+  padding: 3rem; }
+
+.prices {
+  padding: 1rem; }
+
+.button {
+  padding: 1rem 2rem;
+  background-color: #FFC924;
+  border: none;
+  border-radius: 0.5rem;
+  border-bottom: 3px solid #E8AF00;
+  color: #4C4C4B;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-decoration: none; }
+
+h1 {
+  font-size: 1.8rem;
+  color: #4C4C4B;
+  line-height: 2rem; }
+
+span {
+  display: inline;
+  color: #53A318;
+  font-size: 1.8rem; }
+
+.strike {
+  display: inline;
+  color: #808284;
+  font-weight: 400;
+  text-decoration: line-through; }
+
+.reg_price {
+  font-size: 1.8rem;
+  color: #53A318;
+  font-weight: 600; }
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #53A318; }
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #9b9b9b; }
+
+h5 {
+  font-size: 1.6rem;
+  color: #53A318; }
+
+p {
+  font-size: 1.4rem;
+  color: #4C4C4B; }
+
+footer {
+  background-color: #fff;
+  height: 30rem;
+  width: 100%; }

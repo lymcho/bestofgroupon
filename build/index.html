@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><title>Best Deals of Groupon</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="description" content="hand picked groupon deals"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet"><link rel="stylesheet" type="text/css" href="css/styles.css"></head><body><div class="nav"><div class="nav_left"><img src="images/logo.png" width="120px" alt="best of groupon"><h4>Hand-picked 10 best deals in Chicago, updated daily.</h4></div><div class="nav_right"><img src="images/free.png" width="60px" alt=""> <img src="images/bestvalue.png" width="60px" alt=""></div></div><div class="content_wrapper"><div class="content"><!-- all cards here in handlebarjs template --><div class="cards"><script id="cards-template" type="text/x-handlebars-template">{{#cards}} 
+              <div class="card">
+                 <h5>{{index}}</h5>
+                  <img src="{{imgurl}}" width="200px" height="120px">
+                  <div class="card_title">
+                    <h1 >{{title}}</h1> 
+                    <p>{{info}}</p> 
+                    <h3>{{popularity}}&nbsp;bought</h3> 
+                  </div>
+              <div class="card_price">
+                <div class="prices">
+                   <span class="strike">${{oldprice}}</span>
+                  <span class="reg_price">${{price}}</span>
+                </div>
+              
+              <a class="button" href={{url}}>Buy on Groupon</a>
+              </div>
+            </div>
+            {{/cards}}</script></div><!-- promo unit here  --><div class="promo"><img src="images/guide.png" width="300px" alt="how to get the most out of groupon"></div></div></div><br><br><footer></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script><!--   loading data --><script src="js/main.js"></script></body></html>
